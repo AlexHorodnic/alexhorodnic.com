@@ -14,6 +14,7 @@ import { ProjectsComponent } from './modules/projects/projects.component';
 import { AboutComponent } from './modules/about/about.component';
 import { ContactComponent } from './modules/contact/contact.component';
 import { MatIconModule } from '@angular/material/icon';
+import {MatToolbarModule} from "@angular/material/toolbar";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MatIconModule } from '@angular/material/icon';
     BrowserAnimationsModule,
     MatMenuModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

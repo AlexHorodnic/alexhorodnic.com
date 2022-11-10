@@ -3,18 +3,13 @@
   color: white;
   font-weight: 400;
 }
-.container-fluid{
-  background-color: red;
-  padding: 15px;
-}
 button{
   background-color: red;
-  margin: 1px;
 }
-.menu-btn{
-  text-align: right
+.navbar{
+  justify-content: space-between;
+  background-color: red;
 }
-.logo{
- text-decoration: none;
-  text-align: left;
+.nav-col{
+  padding: 0;
 }
