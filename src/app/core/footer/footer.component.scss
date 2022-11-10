@@ -1,0 +1,25 @@
+*{
+  font-size: 1rem;
+  color: white;
+  font-weight: 400;
+}
+html, body{
+  height: 100%;
+}
+.container-fluid{
+  position: absolute;
+  background: #1c1c1c;
+  padding: 80px;
+
+}
+button{
+  background-color: red;
+  margin: 1px;
+}
+.menu-btn{
+  text-align: right
+}
+.logo{
+  text-decoration: none;
+  text-align: center;
+}

@@ -10,6 +10,9 @@ import { FooterComponent } from './core/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatMenuModule} from "@angular/material/menu";
 import {MatButtonModule} from "@angular/material/button";
+import { ProjectsComponent } from './modules/projects/projects.component';
+import { AboutComponent } from './modules/about/about.component';
+import { ContactComponent } from './modules/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import {MatButtonModule} from "@angular/material/button";
     NavbarComponent,
     HomeComponent,
     PageNotFoundComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectsComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

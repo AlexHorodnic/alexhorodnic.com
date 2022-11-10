@@ -1,3 +1,20 @@
+*{
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 400;
+}
+.container-fluid{
+  background-color: red;
+  padding: 15px;
+}
 button{
-  margin: 1rem;
+  background-color: red;
+  margin: 1px;
+}
+.menu-btn{
+  text-align: right
+}
+.logo{
+ text-decoration: none;
+  text-align: left;
 }
