@@ -3,14 +3,12 @@
   color: white;
   font-weight: 400;
 }
-html, body{
-  height: 100%;
-}
-.container-fluid{
-  position: absolute;
+.footer{
   background: #1c1c1c;
   padding: 80px;
-
+  margin-top: auto;
+  top: 100%;
+  position: sticky;
 }
 button{
   background-color: red;
