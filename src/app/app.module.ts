@@ -15,6 +15,8 @@ import { AboutComponent } from './modules/about/about.component';
 import { ContactComponent } from './modules/contact/contact.component';
 import { MatIconModule } from '@angular/material/icon';
 import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatTableModule} from "@angular/material/table";
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import {MatToolbarModule} from "@angular/material/toolbar";
     MatMenuModule,
     MatButtonModule,
     MatIconModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatTableModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

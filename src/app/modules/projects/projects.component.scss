@@ -1,0 +1,23 @@
+.project-col{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.mat-card-image{
+  margin-bottom: 0;
+  transition-duration: 0.2s;
+}
+.mat-card-image:hover{
+  filter: grayscale(100%) brightness(80%);
+
+  transition-duration: 0.2s;
+}
+.mat-raised-button:hover{
+  color: red;
+  transition-delay: 1s;
+}
+img[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  top: -100%;
+  left: 0;
+}

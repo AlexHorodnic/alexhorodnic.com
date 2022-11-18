@@ -1,1 +1,18 @@
-<h1>Projects works!</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-4 project-col" *ngFor="let project of dataSource" >
+      <mat-card  class="example-card mat-elevation-z10" >
+        <mat-card-header>
+          <mat-card-title>{{ project.name }}</mat-card-title>
+          <mat-card-subtitle>{{ project.languages }}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="{{ project.img }}" title="{{project.description}}">
+        <mat-card-actions>
+          <a mat-raised-button href="{{ project.demo }}">DEMO</a>
+          <a mat-raised-button href="{{ project.code }}">CODE</a>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>
+
