@@ -1,18 +1,35 @@
 <div class="container">
   <div class="row">
     <div class="col-4 project-col" *ngFor="let project of dataSource" >
-      <mat-card  class="example-card mat-elevation-z10" >
+      <mat-card class="example-card mat-elevation-z10" >
         <mat-card-header>
           <mat-card-title>{{ project.name }}</mat-card-title>
-          <mat-card-subtitle>{{ project.languages }}</mat-card-subtitle>
+          <mat-card-subtitle>
+            <div class="languages-icons" *ngIf="project.languages.includes('HTML')">
+              <i class="fa-brands fa-html5" style="color: #EC5800" title="HTML"></i>
+            </div>
+            <div class="languages-icons" *ngIf="project.languages.includes('CSS')">
+              <i class="fa-brands fa-css3-alt" style="color: blue" title="CSS"></i>
+            </div>
+            <div class="languages-icons" *ngIf="project.languages.includes('BOOTSTRAP')">
+              <i class="fa-brands fa-bootstrap" style="color: #B600FF" title="BOOTSTRAP"></i>
+            </div>
+            <div class="languages-icons" *ngIf="project.languages.includes('JAVASCRIPT')">
+              <i class="fa-brands fa-js" style="color: #afa500" title="JAVASCRIPT"></i>
+            </div>
+          </mat-card-subtitle>
         </mat-card-header>
-        <img mat-card-image src="{{ project.img }}" title="{{project.description}}">
+        <img mat-card-image src="{{ project.img }}" title="{{project.name}}">
         <mat-card-actions>
-          <a mat-raised-button href="{{ project.demo }}">DEMO</a>
-          <a mat-raised-button href="{{ project.code }}">CODE</a>
+          <a mat-raised-button href="{{ project.demo }}"><i class="fa-solid fa-eye"> DEMO</i></a>
+          <a mat-raised-button href="{{ project.code }}"><i class="fa-solid fa-code"> CODE</i></a>
         </mat-card-actions>
       </mat-card>
+
+
+
     </div>
   </div>
 </div>
+
 
