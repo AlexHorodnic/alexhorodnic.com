@@ -31,7 +31,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
   },
   {
     name: 'Friends and Contacts Platform',
-    languages: 'HTML, CSS, BOOTSTRAP',
+    languages: 'HTML, CSS, BOOTSTRAP, JAVASCRIPT',
     description: 'Project Description',
     img:'https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg',
     features: 'Login / Register Form | Responsive Design',
