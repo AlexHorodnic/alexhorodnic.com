@@ -1,0 +1,16 @@
+a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  display: inline-flex;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.tech{
+  filter:hue-rotate(0deg);
+  filter: brightness(130%);
+}
+hr{
+  background-color: red;
+  border: 2px solid red;
+}
