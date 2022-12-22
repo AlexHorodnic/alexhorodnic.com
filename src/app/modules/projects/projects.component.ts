@@ -15,7 +15,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     name: 'Restaurant and Food Delivery',
     languages: 'HTML, CSS, BOOTSTRAP',
     description: 'Project Description',
-    img:'https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg',
+    img:'https://alexhorodnic.com/img/projects/3.gif',
     features: 'Responsive Design | Contact Form | Sign Up with Paid Subscription',
     demo: 'https://alexhorodnic.com/projects/food/index.html',
     code: 'https://github.com/AlexHorodnic/FriendsContacts'
@@ -24,16 +24,16 @@ const ELEMENT_DATA: PeriodicElement[] = [
     name: 'Municipality of Lamia',
     languages: 'HTML, CSS, BOOTSTRAP',
     description: 'Project Description',
-    img:'https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg',
+    img:'https://alexhorodnic.com/img/projects/1.gif',
     features: 'Photo and Video preview | Contact Form | Subscription Method',
     demo: 'https://alexhorodnic.com/projects/municipality/index.html',
     code: 'https://github.com/AlexHorodnic/MunicipalityOfLamia'
   },
   {
     name: 'Friends and Contacts Platform',
-    languages: 'HTML, CSS, BOOTSTRAP, JAVASCRIPT',
+    languages: 'HTML, CSS, BOOTSTRAP',
     description: 'Project Description',
-    img:'https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg',
+    img:'https://alexhorodnic.com/img/projects/2.gif',
     features: 'Login / Register Form | Responsive Design',
     demo: 'https://alexhorodnic.com/projects/friendscontacts/index.html',
     code: 'https://github.com/AlexHorodnic/FriendsContacts'
