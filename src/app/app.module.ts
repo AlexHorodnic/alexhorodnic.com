@@ -12,7 +12,6 @@ import { MatMenuModule } from "@angular/material/menu";
 import { MatButtonModule } from "@angular/material/button";
 import { ProjectsComponent } from './modules/projects/projects.component';
 import { AboutComponent } from './modules/about/about.component';
-import { ContactComponent } from './modules/contact/contact.component';
 import { MatIconModule } from '@angular/material/icon';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatTableModule} from "@angular/material/table";
@@ -27,7 +26,6 @@ import {MatCardModule} from "@angular/material/card";
     FooterComponent,
     ProjectsComponent,
     AboutComponent,
-    ContactComponent
   ],
   imports: [
     BrowserModule,

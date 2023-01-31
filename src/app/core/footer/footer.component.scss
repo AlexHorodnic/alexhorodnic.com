@@ -1,21 +1,15 @@
 *{
-  font-size: 1rem;
+  font-size: 20px;
   color: white;
   font-weight: 400;
 }
 .footer{
-  background: #1c1c1c;
-  padding: 80px;
+  background: rgba(#AE0000,0.5); ;
+  padding: 30px;
   margin-top: auto;
   top: 100%;
   position: sticky;
-}
-button{
-  background-color: red;
-  margin: 1px;
-}
-.menu-btn{
-  text-align: right
+  z-index: 2;
 }
 .logo{
   text-decoration: none;

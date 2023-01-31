@@ -2,18 +2,32 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.mat-card{
+  background-color: #1E1E1E;
+  color: white;
+  padding-bottom: 25px;
+}
+.mat-card-actions{
+  padding: 0;
+}
 .mat-card-image{
   margin-bottom: 0;
   transition-duration: 0.2s;
 }
+
 .mat-card-image:hover{
   filter: grayscale(100%) brightness(80%);
 
   transition-duration: 0.2s;
 }
+.mat-raised-button{
+  background-color: #131313;
+  color: white;
+  transition: color 0.3s ease;
+}
 .mat-raised-button:hover{
-  color: red;
-  transition-delay: 1s;
+  color: #AE0000;
+
 }
 img[title]:hover::after {
   content: attr(title);
@@ -32,4 +46,3 @@ img[title]:hover::after {
 .project-thumbnails{
   min-height: 210px;
 }
-

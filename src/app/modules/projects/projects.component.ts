@@ -12,19 +12,19 @@ export interface PeriodicElement {
 
 const ELEMENT_DATA: PeriodicElement[] = [
   {
-    name: 'Restaurant and Food Delivery',
+    name: 'Single Page Application',
     languages: 'HTML, CSS, BOOTSTRAP',
     description: 'Project Description',
-    img:'https://alexhorodnic.com/img/projects/3.gif',
+    img:'',
     features: 'Responsive Design | Contact Form | Sign Up with Paid Subscription',
     demo: 'https://alexhorodnic.com/projects/food/index.html',
-    code: 'https://github.com/AlexHorodnic/FriendsContacts'
+    code: 'https://github.com/AlexHorodnic/Food'
   },
   {
     name: 'Municipality of Lamia',
     languages: 'HTML, CSS, BOOTSTRAP',
     description: 'Project Description',
-    img:'https://alexhorodnic.com/img/projects/1.gif',
+    img:'',
     features: 'Photo and Video preview | Contact Form | Subscription Method',
     demo: 'https://alexhorodnic.com/projects/municipality/index.html',
     code: 'https://github.com/AlexHorodnic/MunicipalityOfLamia'
@@ -33,7 +33,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     name: 'Friends and Contacts Platform',
     languages: 'HTML, CSS, BOOTSTRAP',
     description: 'Project Description',
-    img:'https://alexhorodnic.com/img/projects/2.gif',
+    img:'',
     features: 'Login / Register Form | Responsive Design',
     demo: 'https://alexhorodnic.com/projects/friendscontacts/index.html',
     code: 'https://github.com/AlexHorodnic/FriendsContacts'

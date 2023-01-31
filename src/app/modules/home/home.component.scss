@@ -1,0 +1,117 @@
+.row{
+  margin: 70px 0px 0px 0px;
+}
+.mat-raised-button{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  background-color: #131313;
+  color: white;
+  transition: color 0.3s ease;
+}
+.mat-raised-button:hover{
+  color: #AE0000;
+}
+.fab fa-linkedin{
+  font-size: 22px;
+}
+.links-column{
+  height: 100px;
+  text-align: center;
+}
+.title-col{
+  background: rgba(#AE0000,0.5); ;
+  padding: 20px;
+}
+.intro-paragraph{
+  text-align: justify;
+}
+#particles-js {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.row-main-content{
+  background-color: rgba(#1E1E1E, 0.5);
+  z-index: 1;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .row{
+    margin: 0px 0px 0px 0px;
+  }
+  .btn-row {
+    padding: 0;
+  }
+  .mat-raised-button{
+    font-size: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .row{
+    margin: 0px 0px 0px 0px;
+  }
+
+  .btn-row {
+    padding: 0;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .mat-raised-button{
+    font-size: 20px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* styles here */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .content-column{
+    padding-bottom: 20px;
+  }
+  .row-main-content{
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .btn-row{
+    padding: 0;
+  }
+  .content-column{
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  .content-column{
+    padding-bottom: 20px;
+  }
+  .row-main-content{
+    padding: 50px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container{
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .container{
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .mat-raised-button{
+    margin: 5px ;
+    margin-top: 30px;
+    font-size: 15px;
+  }
+}

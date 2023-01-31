@@ -1,15 +1,52 @@
 *{
-  font-size: 1.1rem;
-  color: white;
+  font-size: 25px;
   font-weight: 400;
 }
-button{
-  background-color: red;
+.mat-button{
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.mat-button:hover{
+color: #AE0000;
 }
 .navbar{
   justify-content: space-between;
-  background-color: red;
+  z-index: 2;
+  background-color: #131313;
+  height: 100px;
 }
 .nav-col{
   padding: 0;
+}
+.mat-toolbar{
+  padding-right: 30px;
+  padding-left: 30px;
+  color: white;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.burger-icon {
+  display: none;
+}
+.logo{
+  width: 100px;
+}
+.col-logo{
+  padding-top: 5px;
+}
+@media (max-width: 800px) {
+  .nav-buttons {
+    display: none;
+  }
+  .burger-icon {
+    display: flex;
+  }
+  .mat-icon{
+    font-size: 40px;
+    width: 50px;
+  }
+
 }

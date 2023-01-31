@@ -2,3 +2,17 @@
   filter:hue-rotate(0deg);
   filter: brightness(130%);
 }
+.about-row{
+  text-align: justify;
+  padding: 30px;
+}
+.about-row h1, h2{
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .about-row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+}

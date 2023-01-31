@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
-    <div class="col-4 project-col" *ngFor="let project of dataSource" >
-      <mat-card class="example-card mat-elevation-z10" >
+    <div class="col-lg-4 col-sm-12 project-col" *ngFor="let project of dataSource" >
+      <mat-card class="example-card">
         <mat-card-header>
           <mat-card-title>{{ project.name }}</mat-card-title>
           <mat-card-subtitle>
@@ -19,15 +19,14 @@
             </div>
           </mat-card-subtitle>
         </mat-card-header>
-        <img mat-card-image src="{{ project.img }}" title="{{project.name}}" class="project-thumbnails">
+        <img mat-card-image src="https://www.garymash.com/wp-content/uploads/2020/08/Herrenshirt-In-progress-schwarz-Print.png" alt="Photo of a Shiba Inu" style="max-height: 350px">
+        <mat-card-content>
+        </mat-card-content>
         <mat-card-actions>
-          <a mat-raised-button href="{{ project.demo }}"><i class="fa-solid fa-eye"> DEMO</i></a>
-          <a mat-raised-button href="{{ project.code }}"><i class="fa-solid fa-code"> CODE</i></a>
+          <a mat-raised-button href="{{ project.demo }}"><mat-icon>language</mat-icon> DEMO</a>
+          <a mat-raised-button href="{{ project.code }}"><mat-icon>code</mat-icon> CODE</a>
         </mat-card-actions>
       </mat-card>
-
-
-
     </div>
   </div>
 </div>
