@@ -9,10 +9,10 @@
 .about-row h1, h2{
   margin-bottom: 20px;
 }
-@media only screen and (max-width: 600px) {
-  .about-row{
+
+@media only screen and (min-width: 1400px) {
+  .container{
     margin-top: 50px;
     margin-bottom: 50px;
   }
-
 }

@@ -26,7 +26,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     description: 'Project Description',
     img:'',
     features: 'Photo and Video preview | Contact Form | Subscription Method',
-    demo: 'https://alexhorodnic.com/projects/municipality/index.html',
+    demo: '../projects/demo-projects/lamia/',
     code: 'https://github.com/AlexHorodnic/MunicipalityOfLamia'
   },
   {

@@ -1,5 +1,5 @@
 .row{
-  margin: 70px 0px 0px 0px;
+
 }
 .mat-raised-button{
   margin-right: 20px;
@@ -40,9 +40,7 @@
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .row{
-    margin: 0px 0px 0px 0px;
-  }
+
   .btn-row {
     padding: 0;
   }
@@ -53,9 +51,7 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .row{
-    margin: 0px 0px 0px 0px;
-  }
+
 
   .btn-row {
     padding: 0;
@@ -99,13 +95,12 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .container{
-    margin-top: 20px;
-  }
+
 }
 @media only screen and (min-width: 1400px) {
   .container{
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (max-width: 520px) {

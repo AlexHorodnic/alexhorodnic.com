@@ -46,3 +46,9 @@ img[title]:hover::after {
 .project-thumbnails{
   min-height: 210px;
 }
+@media only screen and (min-width: 1400px) {
+  .container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
