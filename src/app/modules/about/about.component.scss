@@ -1,10 +1,6 @@
-.tech{
-  filter:hue-rotate(0deg);
-  filter: brightness(130%);
-}
 .about-row{
   text-align: justify;
-  padding: 30px;
+  padding: 10px 20px 10px 20px;
 }
 .about-row h1, h2{
   margin-bottom: 20px;
@@ -15,4 +11,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
   }
+}
+hr{
+  border: 2px solid red;
 }

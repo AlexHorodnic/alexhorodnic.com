@@ -10,3 +10,8 @@ body{
 #particles-js{
   z-index: 100;
 }
+app-root,
+.home-component {
+  z-index: 1;
+  position: relative;
+}
