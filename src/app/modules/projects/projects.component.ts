@@ -15,7 +15,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     name: 'WeatherHub - Show Weather statistics by fetching data from a public API',
     languages: 'HTML, CSS, BOOTSTRAP, JAVASCRIPT, API',
     description: 'Project Description',
-    img:'../../../assets/projects/Weatherhub.png',
+    img:'/assets/projects/Weatherhub.png',
     features: 'Responsive Design | Contact Form | Sign Up with Paid Subscription',
     demo: 'https://alexhorodnic.github.io/weatherhub/',
     code: 'https://github.com/AlexHorodnic/weatherhub'
