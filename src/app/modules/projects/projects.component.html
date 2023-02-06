@@ -6,25 +6,29 @@
           <mat-card-title>{{ project.name }}</mat-card-title>
           <mat-card-subtitle>
             <div class="languages-icons" *ngIf="project.languages.includes('HTML')">
-              <i class="fa-brands fa-html5" style="color: #EC5800" title="HTML"></i>
+              <i class="fa-brands fa-html5" style="color: #ff670e" title="HTML"></i>
             </div>
             <div class="languages-icons" *ngIf="project.languages.includes('CSS')">
-              <i class="fa-brands fa-css3-alt" style="color: blue" title="CSS"></i>
+              <i class="fa-brands fa-css3-alt" style="color: #4545ff" title="CSS"></i>
             </div>
             <div class="languages-icons" *ngIf="project.languages.includes('BOOTSTRAP')">
-              <i class="fa-brands fa-bootstrap" style="color: #B600FF" title="BOOTSTRAP"></i>
+              <i class="fa-brands fa-bootstrap" style="color: #c53afd" title="BOOTSTRAP"></i>
             </div>
             <div class="languages-icons" *ngIf="project.languages.includes('JAVASCRIPT')">
-              <i class="fa-brands fa-js" style="color: #afa500" title="JAVASCRIPT"></i>
+              <i class="fa-brands fa-js" style="color: #ffe700" title="JAVASCRIPT"></i>
             </div>
+            <div class="languages-icons" *ngIf="project.languages.includes('API')">
+              <i class="fa-solid fa-database" style="color: #00ffc2" title="API"></i>
+            </div>
+
           </mat-card-subtitle>
         </mat-card-header>
-        <img mat-card-image src="https://www.garymash.com/wp-content/uploads/2020/08/Herrenshirt-In-progress-schwarz-Print.png" alt="Photo of a Shiba Inu" style="max-height: 350px">
+        <img mat-card-image src="{{ project.img }}" style="max-height: 350px">
         <mat-card-content>
         </mat-card-content>
         <mat-card-actions>
-          <a mat-raised-button routerLink="{{ project.demo }}"><mat-icon>language</mat-icon> DEMO</a>
-          <a mat-raised-button href="{{ project.code }}"><mat-icon>code</mat-icon> CODE</a>
+          <a mat-raised-button href="{{ project.demo }}" target="_blank"><mat-icon>language</mat-icon> DEMO</a>
+          <a mat-raised-button href="{{ project.code }}" target="_blank"><mat-icon>code</mat-icon> CODE</a>
         </mat-card-actions>
       </mat-card>
     </div>

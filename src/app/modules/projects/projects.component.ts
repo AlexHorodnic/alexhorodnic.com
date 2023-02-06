@@ -12,16 +12,16 @@ export interface PeriodicElement {
 
 const ELEMENT_DATA: PeriodicElement[] = [
   {
-    name: 'Single Page Application',
-    languages: 'HTML, CSS, BOOTSTRAP',
+    name: 'WeatherHub - Show Weather statistics by fetching data from a public API',
+    languages: 'HTML, CSS, BOOTSTRAP, JAVASCRIPT, API',
     description: 'Project Description',
-    img:'',
+    img:'../../../assets/projects/Weatherhub.png',
     features: 'Responsive Design | Contact Form | Sign Up with Paid Subscription',
-    demo: 'https://alexhorodnic.com/projects/food/index.html',
-    code: 'https://github.com/AlexHorodnic/Food'
+    demo: 'https://alexhorodnic.github.io/weatherhub/',
+    code: 'https://github.com/AlexHorodnic/weatherhub'
   },
   {
-    name: 'Municipality of Lamia',
+    name: 'A responsive single page application',
     languages: 'HTML, CSS, BOOTSTRAP',
     description: 'Project Description',
     img:'',
