@@ -11,7 +11,7 @@ If you would like to utilize the code for your own website, feel free to fork th
 
 # Built with
 
-Angular Framework
-HTML
-CSS
-JavaScript
+-Angular Framework
+-HTML
+-CSS
+-JavaScript
