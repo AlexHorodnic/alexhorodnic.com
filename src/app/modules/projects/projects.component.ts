@@ -21,22 +21,13 @@ const ELEMENT_DATA: PeriodicElement[] = [
     code: 'https://github.com/AlexHorodnic/weatherhub'
   },
   {
-    name: 'A responsive single page application',
-    languages: 'HTML, CSS, BOOTSTRAP',
+    name: 'CarBrandCentral -  A responsive single page application',
+    languages: 'HTML, CSS, BOOTSTRAP, JAVASCRIPT',
     description: 'Project Description',
-    img:'',
+    img:'assets/projects/CarBrandCentral.jpg',
     features: 'Photo and Video preview | Contact Form | Subscription Method',
-    demo: '../projects/demo-projects/lamia/',
+    demo: 'https://alexhorodnic.github.io/carbrandcentral/',
     code: 'https://github.com/AlexHorodnic/MunicipalityOfLamia'
-  },
-  {
-    name: 'Friends and Contacts Platform',
-    languages: 'HTML, CSS, BOOTSTRAP',
-    description: 'Project Description',
-    img:'',
-    features: 'Login / Register Form | Responsive Design',
-    demo: 'https://alexhorodnic.com/projects/friendscontacts/index.html',
-    code: 'https://github.com/AlexHorodnic/FriendsContacts'
   },
 ];
 
