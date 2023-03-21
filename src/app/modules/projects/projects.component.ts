@@ -27,7 +27,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     img:'assets/projects/CarBrandCentral.jpg',
     features: 'Photo and Video preview | Contact Form | Subscription Method',
     demo: 'https://alexhorodnic.github.io/carbrandcentral/',
-    code: 'https://github.com/AlexHorodnic/MunicipalityOfLamia'
+    code: 'https://github.com/AlexHorodnic/carbrandcentral'
   },
 ];
 
