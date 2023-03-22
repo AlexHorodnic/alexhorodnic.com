@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 export interface PeriodicElement {
   name: string;
@@ -15,7 +15,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     name: 'WeatherHub - Show Weather statistics by fetching data from a public API',
     languages: 'HTML, CSS, BOOTSTRAP, JAVASCRIPT, API',
     description: 'Project Description',
-    img:'assets/projects/Weatherhub.png',
+    img: 'assets/projects/Weatherhub.png',
     features: 'Responsive Design | Contact Form | Sign Up with Paid Subscription',
     demo: 'https://alexhorodnic.github.io/weatherhub/',
     code: 'https://github.com/AlexHorodnic/weatherhub'
@@ -24,7 +24,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     name: 'CarBrandCentral -  A responsive single page application',
     languages: 'HTML, CSS, BOOTSTRAP, JAVASCRIPT',
     description: 'Project Description',
-    img:'assets/projects/CarBrandCentral.jpg',
+    img: 'assets/projects/CarBrandCentral.jpg',
     features: 'Photo and Video preview | Contact Form | Subscription Method',
     demo: 'https://alexhorodnic.github.io/carbrandcentral/',
     code: 'https://github.com/AlexHorodnic/carbrandcentral'
@@ -40,7 +40,8 @@ export class ProjectsComponent implements OnInit {
 
   dataSource = ELEMENT_DATA;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

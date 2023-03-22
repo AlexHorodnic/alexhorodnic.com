@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { ParticlesService } from '../../services/particles.service';
+import {Component, OnInit} from '@angular/core';
+import {ParticlesService} from '../../services/particles.service';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +8,8 @@ import { ParticlesService } from '../../services/particles.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private particlesService: ParticlesService) { }
+  constructor(private particlesService: ParticlesService) {
+  }
 
   ngOnInit(): void {
     this.particlesService.loadParticles();

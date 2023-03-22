@@ -1,34 +1,38 @@
 <div class="container">
   <div class="row">
-    <div class="col-lg-4 col-sm-12 project-col" *ngFor="let project of dataSource" >
+    <div class="col-lg-4 col-sm-12 project-col" *ngFor="let project of dataSource">
       <mat-card class="example-card">
         <mat-card-header>
           <mat-card-title>{{ project.name }}</mat-card-title>
           <mat-card-subtitle>
             <div class="languages-icons" *ngIf="project.languages.includes('HTML')">
-              <i class="fa-brands fa-html5" style="color: #ff670e" title="HTML"></i>
+              <i class="fa-brands fa-html5" title="HTML"></i>
             </div>
             <div class="languages-icons" *ngIf="project.languages.includes('CSS')">
-              <i class="fa-brands fa-css3-alt" style="color: #4545ff" title="CSS"></i>
+              <i class="fa-brands fa-css3-alt" title="CSS"></i>
             </div>
             <div class="languages-icons" *ngIf="project.languages.includes('BOOTSTRAP')">
-              <i class="fa-brands fa-bootstrap" style="color: #c53afd" title="BOOTSTRAP"></i>
+              <i class="fa-brands fa-bootstrap" title="BOOTSTRAP"></i>
             </div>
             <div class="languages-icons" *ngIf="project.languages.includes('JAVASCRIPT')">
-              <i class="fa-brands fa-js" style="color: #ffe700" title="JAVASCRIPT"></i>
+              <i class="fa-brands fa-js" title="JAVASCRIPT"></i>
             </div>
             <div class="languages-icons" *ngIf="project.languages.includes('API')">
-              <i class="fa-solid fa-database" style="color: #00ffc2" title="API"></i>
+              <i class="fa-solid fa-database" title="API"></i>
             </div>
 
           </mat-card-subtitle>
         </mat-card-header>
-        <img mat-card-image src="{{ project.img }}" style="max-height: 350px">
+        <img class="project-img" mat-card-image src="{{ project.img }}">
         <mat-card-content>
         </mat-card-content>
         <mat-card-actions>
-          <a mat-raised-button href="{{ project.demo }}" target="_blank"><mat-icon>language</mat-icon> DEMO</a>
-          <a mat-raised-button href="{{ project.code }}" target="_blank"><mat-icon>code</mat-icon> CODE</a>
+          <a mat-raised-button href="{{ project.demo }}" target="_blank">
+            <mat-icon>language</mat-icon>
+            DEMO</a>
+          <a mat-raised-button href="{{ project.code }}" target="_blank">
+            <mat-icon>code</mat-icon>
+            CODE</a>
         </mat-card-actions>
       </mat-card>
     </div>

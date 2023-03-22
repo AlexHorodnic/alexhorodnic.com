@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 
 declare var particlesJS: any;
 
@@ -7,7 +7,8 @@ declare var particlesJS: any;
 })
 export class ParticlesService {
 
-  constructor() { }
+  constructor() {
+  }
 
   loadParticles() {
     particlesJS.load("particles-js", "assets/particles.json");

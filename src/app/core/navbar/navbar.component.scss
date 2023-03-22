@@ -1,24 +1,29 @@
-*{
+* {
   font-size: 25px;
   font-weight: 400;
 }
-.mat-button{
+
+.mat-button {
   text-decoration: none;
   transition: color 0.3s ease;
 }
-.mat-button:hover{
-color: #AE0000;
+
+.mat-button:hover {
+  color: #AE0000;
 }
-.navbar{
+
+.navbar {
   justify-content: space-between;
   z-index: 2;
   background-color: #131313;
   height: 100px;
 }
-.nav-col{
+
+.nav-col {
   padding: 0;
 }
-.mat-toolbar{
+
+.mat-toolbar {
   padding-right: 30px;
   padding-left: 30px;
   color: white;
@@ -31,12 +36,15 @@ color: #AE0000;
 .burger-icon {
   display: none;
 }
-.logo{
-  width: 100px;
+
+.logo {
+  width: 45px;
 }
-.col-logo{
+
+.col-logo {
   padding-top: 5px;
 }
+
 @media (max-width: 800px) {
   .nav-buttons {
     display: none;
@@ -44,7 +52,7 @@ color: #AE0000;
   .burger-icon {
     display: flex;
   }
-  .mat-icon{
+  .mat-icon {
     font-size: 40px;
     width: 50px;
   }
