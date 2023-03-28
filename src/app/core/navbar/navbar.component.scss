@@ -58,3 +58,11 @@
   }
 
 }
+@media (max-width: 360px) {
+  .logo-btn{
+    font-size: 20px;
+  }
+  .img-fluid.logo{
+    width: 75%;
+  }
+}
