@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style> /* Optional styling to make the page look nicer */ </style>
+</head>
+<body>
+<script>
+  var path = window.location.pathname;
+  if (path != '/' && path.slice(-1) != '/') {
+    path = path + '/';
+  }
+  window.location.replace('/' + path + 'index.html');
+</script>
+</body>
+</html>
