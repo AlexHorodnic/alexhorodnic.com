@@ -17,7 +17,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     description: 'Project Description',
     img: 'assets/projects/Weatherhub.png',
     features: 'Responsive Design | Contact Form | Sign Up with Paid Subscription',
-    demo: 'https://alexhorodnic.github.io/weatherhub/',
+    demo: 'https://weatherhub.alexhorodnic.com/',
     code: 'https://github.com/AlexHorodnic/weatherhub'
   },
   {
@@ -26,7 +26,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     description: 'Project Description',
     img: 'assets/projects/CarBrandCentral.jpg',
     features: 'Photo and Video preview | Contact Form | Subscription Method',
-    demo: 'https://alexhorodnic.github.io/carbrandcentral/',
+    demo: 'https://carbrandcentral.alexhorodnic.com/',
     code: 'https://github.com/AlexHorodnic/carbrandcentral'
   },
 ];
