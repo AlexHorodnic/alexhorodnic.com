@@ -86,3 +86,14 @@ img[title]:hover::after {
 .project-img {
   max-height: 350px
 }
+@media only screen and (max-width: 1400px) {
+  .mat-card-title {
+    font-size: 15px;
+    max-height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Number of lines to show before adding ellipsis */
+    -webkit-box-orient: vertical;
+  }
+}

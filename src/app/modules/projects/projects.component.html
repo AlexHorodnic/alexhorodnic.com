@@ -3,7 +3,7 @@
     <div class="col-lg-4 col-sm-12 project-col" *ngFor="let project of dataSource">
       <mat-card class="example-card">
         <mat-card-header>
-          <mat-card-title>{{ project.name }}</mat-card-title>
+          <mat-card-title title="{{ project.name }}">{{ project.name }}</mat-card-title>
           <mat-card-subtitle>
             <div class="languages-icons" *ngIf="project.languages.includes('HTML')">
               <i class="fa-brands fa-html5" title="HTML"></i>
@@ -14,11 +14,17 @@
             <div class="languages-icons" *ngIf="project.languages.includes('BOOTSTRAP')">
               <i class="fa-brands fa-bootstrap" title="BOOTSTRAP"></i>
             </div>
-            <div class="languages-icons" *ngIf="project.languages.includes('JAVASCRIPT')">
+            <div class="languages-icons" *ngIf="project.languages.includes('JS')">
               <i class="fa-brands fa-js" title="JAVASCRIPT"></i>
             </div>
             <div class="languages-icons" *ngIf="project.languages.includes('API')">
               <i class="fa-solid fa-database" title="API"></i>
+            </div>
+            <div class="languages-icons" *ngIf="project.languages.includes('JAVA')">
+              <i class="fa-brands fa-java" title="JAVA" style="color: wheat"></i>
+            </div>
+            <div class="languages-icons" *ngIf="project.languages.includes('DATABASE')">
+              <i class="fa-solid fa-database" title="DATABASE" style="color: red" ></i>
             </div>
 
           </mat-card-subtitle>
