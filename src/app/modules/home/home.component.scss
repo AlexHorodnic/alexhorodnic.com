@@ -1,5 +1,12 @@
+.container {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 h2{
   font-size: 25px;
+}
+.intro-paragraph{
+  font-size: 18px;
 }
 .mat-raised-button {
   margin-right: 20px;
@@ -26,10 +33,14 @@ h2{
 .title-col {
   background: rgba(#AE0000, 0.5);;
   padding: 20px;
+  border-radius: 10px;
 }
 
 .intro-paragraph {
   text-align: justify;
+  hyphens: auto;
+  word-spacing: -0.1em; /* Adjust this value to control the spacing */
+
 }
 
 #particles-js {
@@ -64,7 +75,6 @@ h2{
   .btn-row {
     padding: 0;
     text-align: center;
-    margin: 10px;
   }
 
   .mat-raised-button {
@@ -93,32 +103,38 @@ h2{
   }
   .content-column {
     padding-top: 40px;
-    font-size: 20px;
   }
+
   .content-column {
     padding-bottom: 20px;
   }
   .row-main-content {
     padding: 50px;
   }
+
+  .container{
+    margin-top: 200px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
-}
-
-@media only screen and (min-width: 1400px) {
-  .container {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  .intro-paragraph{
+    font-size: 20px;
+  }
+  .container{
+    max-width: 960px;
   }
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 440px) {
   .mat-raised-button {
     margin: 5px;
     margin-top: 30px;
     font-size: 15px;
   }
+}
+.img-fluid{
+  max-width: 400px;
+  margin: auto;
 }

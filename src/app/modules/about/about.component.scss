@@ -4,9 +4,7 @@
   font-size: 18px;
 }
 
-.about-row h1, h2 {
-  margin-bottom: 20px;
-}
+
 
 @media only screen and (min-width: 1400px) {
   .container {
@@ -17,4 +15,15 @@
 
 hr {
   border: 2px solid red;
+  margin: 5px 0 20px 0;
+}
+
+h2{
+  margin: 0;
+}
+p{
+  padding: 10px
+}
+a{
+  color: red;
 }
