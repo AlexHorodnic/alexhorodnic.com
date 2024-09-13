@@ -1,7 +1,4 @@
-.project-col {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+
 
 .mat-card {
   background-color: #1E1E1E;
@@ -95,5 +92,11 @@ img[title]:hover::after {
     display: -webkit-box;
     -webkit-line-clamp: 2; /* Number of lines to show before adding ellipsis */
     -webkit-box-orient: vertical;
+  }
+}
+
+@media (max-width: 992px) {
+  .project-row {
+    gap: 20px;
   }
 }
