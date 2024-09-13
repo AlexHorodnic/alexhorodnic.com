@@ -1,5 +1,5 @@
 .container {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 h2{
@@ -34,13 +34,6 @@ h2{
   background: rgba(#AE0000, 0.5);;
   padding: 20px;
   border-radius: 10px;
-}
-
-.intro-paragraph {
-  text-align: justify;
-  hyphens: auto;
-  word-spacing: -0.1em; /* Adjust this value to control the spacing */
-
 }
 
 #particles-js {
@@ -98,6 +91,9 @@ h2{
 }
 
 @media only screen and (min-width: 992px) {
+  .intro-paragraph{
+    font-size: 20px;
+  }
   .btn-row {
     padding: 0;
   }
@@ -109,7 +105,7 @@ h2{
     padding-bottom: 20px;
   }
   .row-main-content {
-    padding: 50px;
+    padding: 30px;
   }
 
   .container{
@@ -119,9 +115,7 @@ h2{
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .intro-paragraph{
-    font-size: 20px;
-  }
+
   .container{
     max-width: 960px;
   }

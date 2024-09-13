@@ -1,16 +1,15 @@
 .about-row {
-  text-align: justify;
   padding: 20px 20px 20px 20px;
   font-size: 18px;
 }
 
-
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 @media only screen and (min-width: 1400px) {
-  .container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+
 }
 
 hr {
